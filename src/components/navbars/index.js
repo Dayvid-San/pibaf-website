@@ -1,4 +1,5 @@
 import React from 'react';
+import NavbarsButton from './components/NavbarsButton'
 
 const Navbars = () => {
   return (
@@ -7,7 +8,13 @@ const Navbars = () => {
         <img src="logo.png" alt="Logo" />
       </div>
       <div className="buttons">
-        {/* Aqui é onde vão ficar os botões */}
+        {/* Aqui é onde ficarão os botões */}
+        <NavbarsButton label='' link=''/>;
+        <NavbarsButton label='' link=''/>;
+        <NavbarsButton label='' link=''/>;
+        <NavbarsButton label='' link=''/>;
+        <NavbarsButton label='' link=''/>;
+        <NavbarsButton label='' link=''/>;
       </div>
     </nav>
   );
